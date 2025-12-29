@@ -7,10 +7,10 @@ export default function Stats() {
   const [isVisible, setIsVisible] = useState(false);
 
   const stats = [
-    { id: 1, name: 'Solar Systems Installed', value: 1500, suffix: '+' },
-    { id: 2, name: 'Happy Customers', value: 1200, suffix: '+' },
-    { id: 3, name: 'Years of Experience', value: 15, suffix: '' },
-    { id: 4, name: 'MW of Clean Energy', value: 50, suffix: '+' },
+    { id: 1, name: 'Solar Systems Installed', value: 150, suffix: '+' },
+    { id: 2, name: 'Happy Customers', value: 120, suffix: '+' },
+    { id: 3, name: 'Years of Experience', value: 5, suffix: '+' },
+    { id: 4, name: 'MW of Clean Energy', value: 5, suffix: '+' },
   ];
 
   const Counter = ({ end, duration = 2 }: { end: number; duration?: number }) => {

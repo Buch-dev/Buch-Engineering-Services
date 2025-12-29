@@ -335,7 +335,7 @@ export default function Home() {
                 <SunIcon className="w-8 h-8 text-white" />
               </motion.div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Certified Experts</h3>
-              <p className="text-gray-600">Licensed and certified solar engineers with 15+ years experience</p>
+              <p className="text-gray-600">Licensed and certified solar engineers with expert training</p>
             </motion.div>
 
             <motion.div 
