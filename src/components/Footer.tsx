@@ -101,14 +101,14 @@ export default function Footer() {
                 whileHover={{ x: 5 }}
               >
                 <PhoneIcon className="w-5 h-5" />
-                <span>+1 (555) 123-4567</span>
+                <span>+234 8169769575</span>
               </motion.div>
               <motion.div 
                 className="flex items-center space-x-2"
                 whileHover={{ x: 5 }}
               >
                 <EnvelopeIcon className="w-5 h-5" />
-                <span>info@buchengineering.com</span>
+                <span>buchengineering23@gmail.com</span>
               </motion.div>
               <motion.div 
                 className="flex items-start space-x-2"
@@ -128,7 +128,7 @@ export default function Footer() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.8 }}
         >
-          <p>&copy; 2024 Buch Engineering Services. All rights reserved. Powering your future with clean energy.</p>
+          <p>&copy; {new Date().getFullYear()} Buch Engineering Services. All rights reserved. Powering your future with clean energy.</p>
         </motion.div>
       </div>
     </motion.footer>

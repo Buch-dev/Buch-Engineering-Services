@@ -71,7 +71,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+234 8169769575</p>
                     <p className="text-sm text-gray-500">Mon-Fri 8AM-6PM, Sat 9AM-4PM</p>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
-                    <p className="text-gray-600">info@buchengineering.com</p>
+                    <p className="text-gray-600">buchengineering23@gmail.com</p>
                     <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
                   </div>
                 </div>
@@ -147,7 +147,7 @@ export default function Contact() {
                           value={formData.phone}
                           onChange={handleInputChange}
                           className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                          placeholder="+1 (555) 123-4567"
+                          placeholder="+234 8169769575"
                         />
                       </div>
                     </div>
